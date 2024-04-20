@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --colour-primary: rgb(0, 26, 255);
+    --colour-secondary: rgb(223, 59, 59);
+    --colour-white: white;
+
+    --big-font: 2rem;
+    --mid-font: .5rem;
+    --small-font: 4.5rem;
+    --button-font: 4rem;
+
+    --large-font: 800;
+}
+
+html {
+    font-size: 62.5%;
+    
+}
+
+body{
+  
+}
+
+.cont{
+    display:inline-block;
+   border: 3px solid gold;
+   background: red;
+   margin-bottom: 5rem;
+}
+
+.myImage{
+    width: 20rem;
+    border: 2px solid gray;
+    border-bottom: 2rem;
+}
+
+.but{
+    display: inline-block;
+    margin-bottom: 3rem;
+}
